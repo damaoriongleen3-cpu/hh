@@ -28,4 +28,4 @@ RUN pip install --no-cache-dir --upgrade pip && \
 
 COPY . .
 
-CMD ["sh", "-c", "python3 -c 'import sqlite3; print(\"✓ SQLite OK\")' && python3 main.py"]
+CMD ["sh", "-c", "python3 -c 'import sqlite3; print(\"✓ SQLite OK\")' && python3 ii.py"]
